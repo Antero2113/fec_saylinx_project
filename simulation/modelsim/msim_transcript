@@ -1,0 +1,76 @@
+# Reading pref.tcl
+# do fec_saylinx_board_top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example {C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/cbrt.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:07:55 on Nov 18,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example" C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/cbrt.v 
+# -- Compiling module cbrt
+# 
+# Top level modules:
+# 	cbrt
+# End time: 22:07:55 on Nov 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example {C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/sqrt.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:07:55 on Nov 18,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example" C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/sqrt.v 
+# -- Compiling module sqrt
+# 
+# Top level modules:
+# 	sqrt
+# End time: 22:07:55 on Nov 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example {C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/formula.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:07:55 on Nov 18,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example" C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/formula.v 
+# -- Compiling module formula
+# 
+# Top level modules:
+# 	formula
+# End time: 22:07:55 on Nov 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example {C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/bin_to_bcd_4digit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:07:55 on Nov 18,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example" C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/bin_to_bcd_4digit.v 
+# -- Compiling module bin_to_bcd_4digit
+# 
+# Top level modules:
+# 	bin_to_bcd_4digit
+# End time: 22:07:55 on Nov 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example {C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/hex_display.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:07:55 on Nov 18,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example" C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/hex_display.v 
+# -- Compiling module hex_display
+# 
+# Top level modules:
+# 	hex_display
+# End time: 22:07:55 on Nov 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example {C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/fec_saylinx_board_top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:07:55 on Nov 18,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example" C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/fec_saylinx_board_top.v 
+# -- Compiling module fec_saylinx_board_top
+# ** Error: C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/fec_saylinx_board_top.v(66): (vlog-2730) Undefined variable: 'y_out'.
+# ** Error (suppressible): C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/fec_saylinx_board_top.v(81): (vlog-2388) 'y_out' already declared in this scope (fec_saylinx_board_top) at C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example/fec_saylinx_board_top.v(66).
+# End time: 22:07:55 on Nov 18,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./fec_saylinx_board_top_run_msim_rtl_verilog.do line 13
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/Admin/Documents/ITMO/schem/lab3/project/fec_saylinx_project_example {C:/Users/Admin/Documents/ITMO/sche..."
